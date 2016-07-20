@@ -3,7 +3,7 @@
   ==== RESETS
 ****************************************/
 
-html,body,div,canvas { margin: 0; padding: 0; color: #EFFFFF;}
+html,body,div,canvas { margin: 0; padding: 0; }
 ::-moz-selection { color: #333; text-shadow: none; }
 ::selection {  color: #333; text-shadow: none; }
 .clear:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
@@ -23,8 +23,6 @@ div.title { height: 38px; line-height: 38px; padding: 0 10px; margin: 0 1px 0 0;
 .template-wrap canvas { margin: 0 0 10px 0; position: relative; z-index: 9; box-shadow: 0 10px 30px rgba(0,0,0,0.2); -moz-box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
 .fullscreen { float: right; position: relative; z-index: 10; }
 
-body.template { 
-color: #EFFFFF;
-}
+body.template { }
 .template .template-wrap { }
 .template .template-wrap canvas { }
